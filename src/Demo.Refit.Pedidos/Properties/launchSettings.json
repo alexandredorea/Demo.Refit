@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "Demo.Refit.Pedidos": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "URL_API_PAGAMENTOS": "https://localhost:7017"
+      },
+      "applicationUrl": "https://localhost:7009;http://localhost:5009",
+      "dotnetRunMessages": true
+    }
+  }
+}
